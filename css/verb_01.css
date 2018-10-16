@@ -47,13 +47,13 @@ body {
     transform: scale(1.0);
   }
   25% {
-    transform: scale(1.5); 
+    transform: scale(1.25); 
   }
   50% {
-    transform: scale(2);
+    transform: scale(1.5);
   }
   75% {
-    transform: scale(1.5);
+    transform: scale(1.25);
   }
   100% {
     transform: scale(1);
