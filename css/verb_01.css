@@ -35,8 +35,6 @@ body {
   height: 200px;
   border-radius: 100px;
 
-  margin-left: 100px
-
   animation-name: boop;
   animation-duration: 4s;
   animation-iteration-count: infinite;
