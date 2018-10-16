@@ -30,6 +30,8 @@ body {
 }
 
 .shape {
+  margin-left: 100px;
+  
   background: lightblue;
   width: 200px;
   height: 200px;
