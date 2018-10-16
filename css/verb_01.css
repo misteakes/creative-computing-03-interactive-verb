@@ -34,6 +34,25 @@ body {
   width: 200px;
   height: 200px;
   border-radius: 100px;
+  animation-name: boop;
+}
+
+@keyframes boop {
+  0% {
+    transform: scale(1.0);
+  }
+  25% {
+    transform: scale(1.5); 
+  }
+  50% {
+    transform: scale(2);
+  }
+  75% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .transforms {
