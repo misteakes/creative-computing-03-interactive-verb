@@ -63,7 +63,7 @@ body {
 }
 
 .redcircle {
-  margin-top: 50px;
+  margin-top: 0px;
   margin-left: 375px;
 
   background: red;
@@ -78,19 +78,19 @@ body {
 
 @keyframes encircle {
   0% {
-    transform: translate(25%vw,50%vh);
+    transform: translate(25%,50%);
   }
   25% {
-    transform: translate(50%vw,100%vh);
+    transform: translate(50%,100%);
   }
   50% {
-    transform: translate(75%vw,50%vh);
+    transform: translate(75%,50%);
   }
   75% {
-    transform: translate(50%vw,0%vh);
+    transform: translate(50%,0%);
   }
   100% {
-    transform: translate(25%vw,50%vh);
+    transform: translate(25%,50%);
   }
 
 }
