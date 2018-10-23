@@ -29,8 +29,11 @@ body {
 }*/
 
 .bluecircle {
-  margin-top: 200px;
-  margin-left: 550px;
+  /*margin-top: 200px;
+  margin-left: 550px;*/
+
+  top:50vw;
+  left:50vh;
 
   top: 50%;
   left: 50%;
