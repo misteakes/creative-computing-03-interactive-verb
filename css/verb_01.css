@@ -75,19 +75,19 @@ body {
 
 @keyframes encircle {
   0% {
-    transform: translate(200px,400px);
+    transform: translate(25vw,50vh);
   }
   25% {
-    transform: translate(100px,550px);
+    transform: translate(50vw,100vh);
   }
   50% {
-    transform: translate(200px,700px);
+    transform: translate(75vw,50vh);
   }
   75% {
-    transform: translate(-100px,550px);
+    transform: translate(50vw,0vh);
   }
   100% {
-    transform: translate(200px,400px);
+    transform: translate(25vw,50vh);
   }
 
 }
