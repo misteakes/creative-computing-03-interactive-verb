@@ -14,14 +14,14 @@ body {
   min-height: 100vh;
 }
 
-.center {
+/*.center {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
   height: auto;
   width: auto;
-}
+}*/
 
 .content {
   height: 100%;
@@ -75,6 +75,25 @@ body {
   animation-name: encircle;
   animation-duration: 4s;
   animation-iteration-count: infinite;
+}
+
+@keyframes encircle {
+  0% {
+    transform: translate(25vw,50vh);
+  }
+  25% {
+    transform: translate(50vw,100vh);
+  }
+  50% {
+    transform: translate(75vw,50vh);
+  }
+  75% {
+    transform: translate(50vw,0vh);
+  }
+  100% {
+    transform: translate(25vw,50vh);
+  }
+
 }
 
 
