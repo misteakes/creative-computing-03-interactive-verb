@@ -13,11 +13,11 @@ body {
   min-width: 100vw;
   min-height: 100vh;
 }
-  /*.center {
+.center {
   position: absolute;
   top: 50vw;
   left: 50vh;
-  transform: translate(-50%,-50%);
+  /*transform: translate(-50%,-50%);
   height: auto;
   width: auto;*/
 } 
