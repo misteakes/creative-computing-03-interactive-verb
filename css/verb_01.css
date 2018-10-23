@@ -30,7 +30,8 @@ body {
 }
 
 .shape {
-  position: center;
+
+  align-items: center;
 
   margin-top: 100px;
   margin-left: 100px;
