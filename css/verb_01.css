@@ -30,8 +30,11 @@ body {
 }
 
 .bluecircle {
-  margin-top: 200px;
-  margin-left: 550px;
+  /*margin-top: 200px;
+  margin-left: 550px;*/
+
+  position: relative;
+  left: -50%;
 
   background: lightblue;
   width: 150px;
