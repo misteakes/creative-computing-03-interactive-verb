@@ -36,7 +36,9 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 100px;
+}
 
+.bluecircle:hover {
   animation-name: boop;
   animation-duration: 4s;
   animation-iteration-count: infinite;
