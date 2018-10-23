@@ -32,8 +32,7 @@ body {
   /*margin-top: 200px;
   margin-left: 550px;*/
 
-  top:50vw;
-  left:50vh;
+  position: (50vw,50vh);
 
   background: lightblue;
   width: 150px;
