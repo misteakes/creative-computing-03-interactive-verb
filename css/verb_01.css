@@ -68,9 +68,7 @@ body {
   height: 100px;
   border-radius: 100px;
 
-  animation-name: encircle;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
+  -webkit-animation: ccircle 4s infinite linear;
 }
 
 @keyframes encircle {
@@ -83,6 +81,10 @@ body {
   }
 
 }
+
+@-webkit-keyframes ccircle {
+    from {-webkit-transform: rotateZ(360deg)}
+    to {-webkit-transform: rotateZ(0deg)}
 
 
 .transforms {
