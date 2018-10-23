@@ -29,8 +29,7 @@ body {
   padding: 20px;
 }
 
-.shape {
-
+.bluecircle {
   margin-top: 200px;
   margin-left: 550px;
 
@@ -43,7 +42,6 @@ body {
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-direction: normal;
-
 }
 
 @keyframes boop {
@@ -63,6 +61,25 @@ body {
     transform: scale(1.0);
   }
 }
+
+
+
+.redcircle {
+  margin-top: 50px;
+  margin-left: 550px;
+
+  background: red;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+
+  /*animation-name: boop;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;*/
+}
+
+
 
 .transforms {
   transform: rotateZ(45deg);
