@@ -32,8 +32,11 @@ body {
 .shape {
   position: relative;
 
-  margin-top: 100px;
-  margin-left: 100px;
+  top: 50vh;
+  left: 50vw;
+
+  /*margin-top: 100px;
+  margin-left: 100px;*/
 
   background: lightblue;
   width: 200px;
