@@ -40,9 +40,9 @@ body {
 
 .bluecircle:hover {
   animation-name: boop;
-  animation-duration: 4s;
+  /*animation-duration: 4s;
   animation-iteration-count: infinite;
-  animation-direction: normal;
+  animation-direction: normal;*/
 }
 
 @keyframes boop {
@@ -71,7 +71,7 @@ body {
   border-radius: 100px;
 
   animation-name: encircle;
-  animation-duration: 4s;
+  animation-duration: 8s;
   animation-iteration-count: infinite;
 }
 
