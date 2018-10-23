@@ -30,6 +30,7 @@ body {
 }
 
 .bluecircle {
+
   margin-top: 200px;
   margin-left: 550px;
 
@@ -42,6 +43,7 @@ body {
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-direction: normal;
+
 }
 
 @keyframes boop {
@@ -61,10 +63,6 @@ body {
     transform: scale(1.0);
   }
 }
-
-
-
-
 
 .transforms {
   transform: rotateZ(45deg);
