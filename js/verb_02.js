@@ -37,8 +37,32 @@ var shape = document.querySelector(".redcircle");
 
 var h = randomNumber(0,359);
 
-.redcircle.style.background = hslColor(h, h, h);
-.redcircle.style.borderColor = hslColor(h, h, h);
+/* .redcircle.style.background = hslColor(h, h, h);
+.redcircle.style.borderColor = hslColor(h, h, h); */
+
+var shape = document.querySelector(".shape");
+
+var width = randomNumber(150, 700); 
+var height = randomNumber(150, 1000);
+
+shape.style.width = width + "px";
+shape.style.height = height + "px";
+
+var h = randomNumber(0, 359);
+
+/* var h1 = randomNumber(160, 180);
+var h2 = randomNumber(180, 200);
+var h3 = randomNumber(200, 220); */
+
+shape.style.background = hslColor(h, 50, 50);
+shape.style.borderColor = hslColor(h, 90, 50);
+
+
+
+
+var container = document.querySelector(".content");
+
+container.style.background = hslColor(h+180, 50, 30);
 
 
 
