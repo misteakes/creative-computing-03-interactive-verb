@@ -1,9 +1,7 @@
 /*
   Returns a random whole number between minimum value and maximum value
-
   For example, calling randomNumber(0, 255);
   will return a random whole number between 0 and 255.
-
   Source: https://stackoverflow.com/questions/1527803/generating-random-whole-numbers-in-javascript-in-a-specific-range
 */
 function randomNumber (min, max) {
@@ -12,10 +10,8 @@ function randomNumber (min, max) {
 
 /*
   Returns a random floating point number between minimum value and maximum value
-
   For example, calling randomFloat(0, 1);
   will return a random floating between 0.0 and 1.0.
-
   Source: https://stackoverflow.com/questions/9724404/random-floating-point-double-in-inclusive-range
 */
 function randomFloat (min, max) {
@@ -30,17 +26,6 @@ function randomFloat (min, max) {
 
   return parseFloat(value.toFixed(2));
 }
-
-
-
-var shape = document.querySelector(".redcircle");
-
-var h = randomNumber(0,359);
-
-/* .redcircle.style.background = hslColor(h, h, h);
-.redcircle.style.borderColor = hslColor(h, h, h); */
-
-
 
 
 
