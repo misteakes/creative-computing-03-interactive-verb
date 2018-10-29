@@ -38,7 +38,7 @@ var shape = document.querySelector(".redcircle");
 var h = randomNumber(0,359)
 
 .redcircle.style.background = hslColor(90, 90, 50);
-.redcircle.style.borderColor= hslColor(h, h, h);
+.redcircle.style.borderColor = hslColor(h, h, h);
 
 
 
