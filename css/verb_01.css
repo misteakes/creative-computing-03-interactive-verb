@@ -36,6 +36,8 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 100px;
+  z-index: -100;
+  position: fixed;
 }
 
 .bluecircle:hover {
@@ -43,6 +45,7 @@ body {
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-direction: normal;
+  z-index: 300;
 }
 
 @keyframes boop {
