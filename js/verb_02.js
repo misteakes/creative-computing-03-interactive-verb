@@ -31,7 +31,7 @@ var h = randomNumber(0,359);
 
 var shape = document.querySelector(".redcircle");
 
-shape.style.background = hslColor(h, h, h);
+redcircle.style.background = hslColor(h, h, h);
 
 
 
