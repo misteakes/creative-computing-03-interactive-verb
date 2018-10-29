@@ -36,6 +36,8 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 100px;
+  z-index: -100;
+  position: fixed;
 }
 
 .bluecircle:hover {
@@ -43,6 +45,7 @@ body {
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-direction: normal;
+  z-index: 300;
 }
 
 @keyframes boop {
@@ -92,4 +95,17 @@ body {
     transform: translate(25vw,50vh);
   }
 
+}
+
+
+.transforms {
+  transform: rotateZ(45deg);
+  transform: rotateX(45deg);
+  transform: rotateY(45deg);
+  transform: skewX(45deg);
+  transform: skewY(45deg);
+  transform: scaleX(1.5);
+  transform: scaleY(1.5);
+  transform: translateX(50px);
+  transform: translateY(50px);
 }
