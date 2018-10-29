@@ -31,4 +31,4 @@ function randomFloat (min, max) {
   return parseFloat(value.toFixed(2));
 }
 
-shape.style.background = hslColor(h, 50, 50);
+redcircle.style.background = hslColor(h, 50, 50);
