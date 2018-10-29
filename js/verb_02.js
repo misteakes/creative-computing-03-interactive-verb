@@ -27,6 +27,12 @@ function randomFloat (min, max) {
   return parseFloat(value.toFixed(2));
 }
 
+var h = randomNumber(0,359);
+
+var shape = document.querySelector(".redcircle");
+
+shape.style.background = hslColor(h, h, h);
+
 
 
 
