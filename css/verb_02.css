@@ -38,7 +38,7 @@ body {
   height: 150px;
   border-radius: 100px;
   z-index: -100;
-  position: fixed;
+  position: absolute;
 }
 
 .bluecircle:hover {
