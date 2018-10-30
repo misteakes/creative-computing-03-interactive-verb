@@ -27,7 +27,21 @@ function randomFloat (min, max) {
   return parseFloat(value.toFixed(2));
 }
 
+function hslColor(h, s, l) {  
+  var hue = h;
+  var saturation = s + "%";
+  var luminance = l + "%";
 
+  var color = "hsl(" + hue + "," + saturation + "," + luminance + ")";
+
+  return color;
+}
+
+var shape = document.querySelector(".redcircle");
+
+var h = randomNumber (0,359);
+
+shape.style.background = hslColor(h, h, h);
 
 
 
