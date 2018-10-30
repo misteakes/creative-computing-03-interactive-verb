@@ -22,11 +22,10 @@ body {
   width: auto;*/
 } 
 
-/*.content {
+.content {
   height: 100%;
   width: 100%;
-  padding: 20px;
-}*/
+}
 
 .bluecircle {
   margin-top: 200px;
