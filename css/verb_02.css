@@ -74,6 +74,8 @@ body {
   height: 100px;
   border-radius: 100px;
 
+  left: 45%;
+
   animation-name: encircle;
   animation-duration: 8s;
   animation-iteration-count: infinite;
