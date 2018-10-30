@@ -30,8 +30,8 @@ body {
 } */
 
 .bluecircle {
-  margin-top: 200px;
-  margin-left: 550px;
+  top: 50%;
+  left: 50%;
 
   background: lightblue;
   width: 150px;
@@ -73,7 +73,6 @@ body {
   width: 100px;
   height: 100px;
   border-radius: 100px;
-
 
   animation-name: encircle;
   animation-duration: 8s;
