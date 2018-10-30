@@ -51,6 +51,10 @@ var element = document.querySelector('.some-class');
 element.style.background = color;
 */
 
+/* 
+var border = document.querySelector(".border-radius");
+border.style.color = hslColor();
+*/
 
 
 
