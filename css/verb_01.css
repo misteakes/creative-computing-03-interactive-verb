@@ -29,24 +29,28 @@ body {
 }*/
 
 .bluecircle {
-  margin-top: 200px;
-  margin-left: 550px;
+  margin-top: 50%
+  margin-left: 48%
 
   background: lightblue;
   width: 150px;
   height: 150px;
   border-radius: 100px;
   z-index: -100;
-  position: fixed;
+  position: absolute;
+
+  animation-name: boop;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
-.bluecircle:hover {
+/* .bluecircle:hover {
   animation-name: boop;
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-direction: normal;
   z-index: 300;
-}
+} */
 
 @keyframes boop {
   0% {
