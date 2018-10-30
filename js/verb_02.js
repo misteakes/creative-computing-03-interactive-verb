@@ -44,6 +44,13 @@ var h = randomNumber (0,359);
 shape.style.background = hslColor(h, 80, 10);
 
 
+/* 
+var hue = randomNumber (0, 350);
+var color = hslColor(hue, 50, 50);
+var element = document.querySelector('.some-class');
+element.style.background = color;
+*/
+
 
 
 
