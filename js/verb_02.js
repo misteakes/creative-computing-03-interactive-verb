@@ -43,7 +43,7 @@ var h = randomNumber (0,359);
 
 shape.style.background = hslColor(h, 80, 20);
 
-var container = document.querySelector(".content");
+var container = document.querySelector(".body");
 container.style.background = hslColor(h, 80, 5);
 
 
