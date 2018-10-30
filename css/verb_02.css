@@ -30,8 +30,8 @@ body {
 } */
 
 .bluecircle {
-  top: 50%;
-  left: 50%;
+  top: 50vh;
+  left: 50vw;
 
   background: lightblue;
   width: 150px;
