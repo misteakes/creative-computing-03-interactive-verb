@@ -40,20 +40,17 @@ body {
   z-index: -100;
   position: absolute;
 
-  /* animation-name: boop;
+  animation-name: boop;
   animation-duration: 4s;
-  animation-iteration-count: infinite; */
-
+  animation-iteration-count: infinite;
 }
 
 .bluecircle:hover {
- /* animation-name: boop;
+ animation-name: boop;
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-direction: normal;
-  z-index: 300; */
-
-  transform: scale(1.2);
+  z-index: 300;
 }
 
 @keyframes boop {
