@@ -40,15 +40,13 @@ body {
   z-index: -100;
   position: absolute;
 
-  animation-delay: 1s;
-
   /* animation-name: boop;
   animation-duration: 4s;
   animation-iteration-count: infinite; */
 
 }
 
-.content:hover .bluecircle {
+.bluecircle:hover {
   animation-name: boop;
   animation-duration: 4s;
   animation-iteration-count: infinite;
