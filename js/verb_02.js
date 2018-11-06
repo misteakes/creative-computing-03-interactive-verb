@@ -41,7 +41,7 @@ var shape = document.querySelector(".redcircle");
 
 var h = randomNumber (0,359);
 
-shape.style.background = hslColor(h, 80, 30);
+shape.style.background = hslColor(h, 80, 80);
 
 
 /* 
