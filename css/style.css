@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  background-color: lightblue;
+  font-family: "georgia";
 }
 
 html {
@@ -29,7 +31,7 @@ body {
 }
 
 .verb h1 {
-  font-size: 200px;
+  font-size: 144px;
   text-align: center;
 }
 
