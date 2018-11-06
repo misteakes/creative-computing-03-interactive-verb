@@ -44,9 +44,10 @@ body {
   animation-duration: 4s;
   animation-iteration-count: infinite; */
 
+  animation-name: boop;
+  animation-duration: 4s;
+
 }
-
-
 
 .bluecircle:hover {
   animation-name: boop;
