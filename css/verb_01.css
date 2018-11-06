@@ -53,7 +53,7 @@ body {
   animation-direction: normal;
   z-index: 300; */
 
-  transform: scale(1.0) scale(1.05) scale(1.2) scale(1.05) scale(1.0);
+  transform: scale(1.2);
 }
 
 @keyframes boop {
