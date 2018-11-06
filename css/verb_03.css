@@ -57,6 +57,10 @@ body {
   animation-iteration-count: infinite; */
 }
 
-.content:hover .shape {
+.shape-interaction {
   transform: scale(1.5);
+}
+
+.content:hover .shape {
+  background: red;
 }
