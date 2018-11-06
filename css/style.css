@@ -35,3 +35,8 @@ body {
   text-align: center;
 }
 
+.verb h1:hover {
+  transform: scale(2);
+  background: red;
+}
+
