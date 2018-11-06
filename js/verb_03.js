@@ -1,4 +1,4 @@
-for(var i=0; i<36; i++) {
+for(var i=0; i<35; i++) {
 
 	// create a div
 	var shape = document.createElement('div');
