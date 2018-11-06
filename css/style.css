@@ -36,7 +36,7 @@ body {
 }
 
 .verb h1:hover {
-  transform: scale(2);
+  transform: scale(4);
   color: red;
   background: white;
 }
