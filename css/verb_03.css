@@ -27,7 +27,7 @@ body {
   background: #efefef;
 }
 
-@keyframes boop {
+/* @keyframes boop {
   0% {
     transform: scale(1.0);
   }
@@ -43,7 +43,7 @@ body {
   100% {
     transform: scale(1.0);
   }
-}
+} */
 
 .shape {
   width: 140px;
@@ -52,9 +52,9 @@ body {
   background: hsl(193, 52%, 72%);
   display: inline-block;
 
-  animation-name: boop;
+  /* animation-name: boop;
   animation-duration: 4s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: infinite; */
 }
 
 .content:hover .shape {
