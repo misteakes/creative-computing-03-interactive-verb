@@ -28,8 +28,8 @@ body {
 }
 
 .shape {
-  width: 130px;
-  height: 130px;
+  width: 140px;
+  height: 140px;
   border-radius: 100px;
   background: hsl(150, 60%, 60%);
   display: inline-block;
