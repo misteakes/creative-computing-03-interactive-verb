@@ -58,9 +58,10 @@ body {
 }
 
 .shape-interaction {
+  background: red;
   transform: scale(1.5);
 }
 
-.content:hover .shape {
+/* .content:hover .shape {
   background: red;
-}
+} */
