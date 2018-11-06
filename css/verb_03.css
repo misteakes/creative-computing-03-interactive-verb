@@ -28,7 +28,7 @@ body {
 }
 
 .shape {
-  width: 150px;
+  width: 140px;
   height: 150px;
   border-radius: 100px;
   background: hsl(150, 60%, 60%);
