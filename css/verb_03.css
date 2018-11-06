@@ -58,5 +58,5 @@ body {
 }
 
 .shape-interaction {
-  transform: scale(1.5);
+  color: red;
 }
