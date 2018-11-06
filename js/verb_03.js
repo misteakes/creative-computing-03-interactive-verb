@@ -11,10 +11,8 @@ shape.addEventListener('mouseover', function(event){
     shape.classList.add('shape-interaction');
   });
 
-  // select container div
   var container = document.querySelector('.content');
 
-  // add the div to the DOM
   container.append(shape);
 
 var shapes = document.querySelectorAll('.shape');
