@@ -54,6 +54,7 @@ body {
   animation-iteration-count: infinite;
   animation-direction: normal;
   z-index: 300;
+  animation-delay: 2s;
 }
 
 @keyframes boop {
