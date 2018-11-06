@@ -57,6 +57,6 @@ body {
   animation-iteration-count: infinite;
 }
 
-.shape-interaction {
-  color: red;
+.content:hover .shape {
+  background: red;
 }
