@@ -1,27 +1,15 @@
-function hslColor(h, s, l){
-	var hue = h
-	var saturation = s + "%";
-	var luminance = l + "%";
-
-var color = "hsl(" + hue + "," + saturation + "," + luminance + ")";
-
-return color;
-}
-
 for(var i=0; i<100; i++) {
 
-	var shapes = document.createElement('div');
+	// create a div
+	var shape = document.createElement('div');
+
+	// add class "shape" to div
 	shape.classList.add('shape');
+
+	// select container div
 	var container = document.querySelector('.content');
+
+	// add the div to the DOM
 	container.append(shape);
 
 }
-
-var shapes = document.querySelectorAll('.shape');
-
-shapes.forEach(function(shape, i) {
-
-var color = lightblue;
-
-}
-
