@@ -47,11 +47,13 @@ body {
 }
 
 .bluecircle:hover {
-  animation-name: boop;
-  /* animation-duration: 4s;
+ /* animation-name: boop;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
-  animation-direction: normal; */
-  z-index: 300;
+  animation-direction: normal;
+  z-index: 300; */
+
+  transform: scale(1.0) scale(1.05) scale(1.2) scale(1.05) scale(1.0);
 }
 
 @keyframes boop {
