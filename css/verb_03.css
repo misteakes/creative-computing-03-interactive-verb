@@ -27,12 +27,34 @@ body {
   background: #efefef;
 }
 
+@keyframes boop {
+  0% {
+    transform: scale(1.0);
+  }
+  25% {
+    transform: scale(1.05); 
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  75% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1.0);
+  }
+}
+
 .shape {
   width: 140px;
   height: 140px;
   border-radius: 100px;
   background: hsl(193, 52%, 72%);
   display: inline-block;
+
+  animation-name: boop;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
 .shape-interaction {
