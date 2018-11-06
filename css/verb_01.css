@@ -48,13 +48,13 @@ body {
 
 
 
-/* .bluecircle:hover {
+.bluecircle:hover {
   animation-name: boop;
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-direction: normal;
   z-index: 300;
-} */
+}
 
 @keyframes boop {
   0% {
