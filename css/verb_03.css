@@ -35,3 +35,6 @@ body {
   display: inline-block;
 }
 
+.shape-interaction {
+  transform: scale(2);
+}
