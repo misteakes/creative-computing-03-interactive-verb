@@ -37,7 +37,7 @@ function hslColor(h, s, l) {
   return color;
 }
 
-var shape = document.querySelector(".insidecircle");
+var shape = document.querySelector(".redcircle");
 
 var h = randomNumber (0,359);
 
