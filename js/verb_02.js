@@ -43,15 +43,6 @@ var h = randomNumber (0,359);
 
 shape.style.background = hslColor(h, 80, 20);
 
-// Adding another circle!
-
-var shape = document.querySelector(".outsidecircle");
-
-var h = randomNumber (0,359);
-
-shape.style.background = hslColor(h, 80, 20);
-
-
 /* 
 var hue = randomNumber (0, 350);
 var color = hslColor(hue, 50, 50);
